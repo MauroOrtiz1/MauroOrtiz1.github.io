@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    background-color: #344E9D;
+    color: cornflowerblue;
+    font-size: 25px;
+}
+#Foto{
+    float: right;
+    border: 5px solid;
+    margin-left: 10px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #FEDE52;
+}
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(247, 199, 127);
+    text-decoration: underline;
+}
+.subtitulo{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(223, 116, 116);
+    font-weight: bold;
+}
+.texto{
+    font-size: 25px;
+    font-family: 'Acme', sans-serif;
+    color: black;
+}
+.tabla{
+    text-align: center;
+    border: 1px solid yellowgreen;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lista{
+    list-style-type: square;
+}
+.centrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boton{
+    background-color: #55ace6;
+    color: #fff;
+    font-size: 30px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 50px;
+    right: 150px;
+}

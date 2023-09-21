@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación Personal</title>
+    <link rel="stylesheet" href="css/estilosTrabajos.Propuestos.css"/>
+    <script>
+        function Contáctame(){
+            var correo = "Correo: bernie.ortiz@tecsup.edu.pe";
+            var telefono = "Telefono: 945836255";
+            var direccion = "Direccion: Cerro Colorado - Campo Alegre Z-6";
+            
+            var Contacto = correo + "\n" + telefono + "\n" + direccion;
+            alert(Contacto);
+        }
+    </script>
+</head>
+<body>
+    <h1>Bernie Mauro Ortiz Ortega</h1>
+    <img id="Foto" src="FotoBernie.jpg" alt="Logo HTML5" width="500px"/>
+
+    <h2 class="titulo">Presentacion Personal</h2>
+    <p class="texto">Soy Bernie Mauro Ortiz Ortega, estudio Diseño y Desarrollo de Software en Tecsup. Soy una persona curiosa, puntual, responsable y empatica.</p>
+
+    <h2 class="titulo">Sobre mi</h2>
+    <p class="texto">Me apasiona la informática, por eso elegí esta carrera. Mis hobbies son escuchar música, leer, jugar videojuegos, aprender cosas nuevas, etc. </br>
+    Mi motivación es alcanzar los objetivos que me he trazado, como terminar la carrera y trabajar en lo que me gusta.</p>
+
+    <h2 class="titulo">Tecnologías y lenguajes de Programación</h2>
+    <table border="1" class="tabla">
+        <tr>    
+            <th class="subtitulo">Lenguajes de Programacion:</th>
+            <th class="subtitulo">Tecnologias:</th>
+            <th class="subtitulo">Capacitacion:</th>
+        </tr>
+        <tr>
+            <td class="texto">Python, Java, HTML, SQL</td>
+            <td class="texto">Oracle, Github, MongoDB</td>
+            <td class="texto">NA</td>
+        </tr>
+    </table>
+
+    <h2 class="titulo">Formación Profesional</h2>
+    <div class="centrar">
+        <ol class="lista" class="centrar">
+            <li class="texto">Certificado en Python</li>
+            <li class="texto">Certificado en Photoshop</li>
+            <li class="texto">Certificado en Ingles Intermedio</li>
+        </ol>
+
+        <h2 class="titulo">Idiomas</h2>
+        <ol class="lista">
+            <li class="texto">Español</li>
+            <li class="texto">Ingles</li>
+        </ol>
+    </div>
+    <button class="boton" type="button" onclick="Contáctame()">Contáctame</button>
+</body>
+</html>
